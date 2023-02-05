@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../../styles/Home.module.scss";
+import styles from "../../styles/home.module.scss";
 
 import Logo from "../../public/sua logo.png";
 import { Input } from "../components/ui/Input/index";
@@ -34,6 +34,9 @@ export default function Home() {
               Acessar
             </Button>
           </form>
+
+          <a className={styles.text}>Não possui uma conta cadastre-se</a>
+
         </div>
 
       </div>
