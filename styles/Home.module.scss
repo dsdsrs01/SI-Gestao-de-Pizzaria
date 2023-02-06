@@ -36,6 +36,11 @@
   cursor: pointer;
 }
 
+.titulo{
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
 @media(max-width: 620px) {
   .login{
     width: 90%;
