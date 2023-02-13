@@ -15,7 +15,7 @@ export default function Signup() {
         <title>Faca seu cadastro agora</title>
       </Head>
       <div className={styles.containerCenter}>
-        <Image src={Logo} alt="Logo Sujeito Pizzaria"/>
+        <Image src={Logo} className={styles.logoTopo} alt="Logo Sujeito Pizzaria"/>
 
         <div className={styles.login}>
 
